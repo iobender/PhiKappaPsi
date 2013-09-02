@@ -1,0 +1,91 @@
+html {
+	background-color: rgb(233, 37, 32);
+}
+
+body {
+	font-family: arial;
+	font-weight: lighter;
+	color: white;
+	background-color: rgb(1, 68, 33);
+	margin: 0px 220px;
+	padding: 50px;
+	padding-top: 10px;
+	border: groove;
+	border-color: white;
+}
+
+h1 {
+	font-size: 40pt;
+	font-weight: lighter;
+	position: absolute;
+	top: 50px;
+	left: 500px;
+}
+
+h2 {
+	font-size: 18pt;
+	color: black;
+	background-color: rgb(233, 206, 22);
+	margin: -10px -50px;
+	padding: 10px 50px;
+}
+
+h3 {
+	font-family: arial;
+	color: white;
+}
+
+p {
+	text-indent: .3in;
+}
+
+a:link {
+	color: yellow;
+}
+
+a:visited {
+	color: yellow;
+}
+
+#navigation {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    width: 200px;
+    color: white;
+    font-size: 17pt;
+}
+
+#navigation a:link {
+	color: white;
+}
+
+#navigation a:visited {
+	color: white;
+}
+
+#brothers ul:before {
+	content: none;
+}
+
+.headshot {
+	text-align: center;
+	width: 240px;
+	display: inline-block;
+	margin: 20px 20px 0 0;
+}
+
+.headshot img {
+	display: block;
+	margin: 0 auto;
+	width: 240px;
+	height: 240px;
+}
+
+/*
+green: rgb(1, 38, 63);
+red: rgb(233, 37, 32);
+hunter green: rgb(53, 94, 59);
+cardinal red: rgb(196, 30, 58);
+yellow: rgb(233, 206, 22);
+*/

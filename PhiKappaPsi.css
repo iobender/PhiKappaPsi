@@ -14,14 +14,6 @@ body {
 	border-color: white;
 }
 
-h1 {
-	font-size: 40pt;
-	font-weight: lighter;
-	position: absolute;
-	top: 50px;
-	left: 500px;
-}
-
 h2 {
 	font-size: 18pt;
 	color: black;
@@ -45,6 +37,26 @@ a:link {
 
 a:visited {
 	color: yellow;
+}
+
+#header {
+	text-align: center;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+#header img {
+	float: left;
+}
+
+#header div {
+	text-align: left;
+	font-weight: lighter;
+}
+
+#header div h1 {
+	font-size: 40pt;
+	font-weight: lighter;
 }
 
 #navigation {

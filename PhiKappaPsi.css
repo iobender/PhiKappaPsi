@@ -99,6 +99,17 @@ a:visited {
 	margin-top: 6px;
 }
 
+#header_pics a img {
+	width: 275px;
+	height: 200px;
+	display: inline-table;
+	margin: -10px 0px 0 5px;
+}
+
+#header_pics {
+	margin: -5px -25px 15px -25px;
+}
+
 /*
 green: rgb(1, 38, 63);
 red: rgb(233, 37, 32);

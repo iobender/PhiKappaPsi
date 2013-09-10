@@ -39,6 +39,10 @@ a:visited {
 	color: yellow;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 #header {
 	text-align: center;
 	display: inline-block;

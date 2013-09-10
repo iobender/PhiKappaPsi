@@ -83,6 +83,10 @@ a:visited {
 	box-shadow: 3px 3px 2px black;
 }
 
+.linkpanel:hover {
+	padding-left: 11px;
+}
+
 #brothers ul:before {
 	content: none;
 }
